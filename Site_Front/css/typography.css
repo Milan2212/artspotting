@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+h1,p,h4,h3,input,h2,.epingles {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+input {
+    color: black;
+    font-size: 0.9vw;
+    padding-left: 0.2vw;
+}
+/*.epingles {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}*/
+
+p {
+    font-size: 1.21vw;
+}
+h2 {
+    font-size: 2.2vw;
+}
+a,h4 {
+    color: #7883FF;
+    text-decoration: none;
+}
+a:hover,h4:hover, #inscription a {
+    color: #B1B7FF;
+}
+
+.popuptext1 .auteur p,.popuptext1 .oeuvre p, .popuptext1 ul,.popuptext2 .auteur p,.popuptext2 .oeuvre p,.popuptext2 ul,.popuptext3 .auteur p,.popuptext3 .oeuvre p,.popuptext3 ul{
+    font-size: 0.71vw;
+}
+
+footer #informations p {
+    font-size: 0.99vw;
+}
+footer #informations h4 {
+    font-size: 0.88vw;
+    margin-top: 0;
+}
+.mentions h3 {
+    font-size: 1.15vw;
+}
+.mentions p {
+    font-size: 0.99vw;
+}
+.mentions h2 {
+    font-size: 1.54vw;
+}
+#mentions_legales h4 {
+    font-size: 0.88vw;
+}
+.register .bouton,  .login .bouton, .button, .bouton {
+    font-family: "Open Sans";
+    color: white;
+    font-size: 1.1vw;
+
+}
+.register .bouton a, .index .login .bouton a  {
+    color: white;
+}
+.register p {
+    font-size: 0.82vw;
+}
+.account .info-profile div.form-example:nth-child(1) label,.account .info-profile div.form-example:nth-child(2) label,.account .info-profile div.form-example:nth-child(3) label,.account .info-profile div.form-example:nth-child(4) label{
+    font-size: 1.21vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.account .info-profile div.form-example:nth-child(5) input, .add .f11 .bouton:hover, .add .f11 .bouton {
+    font-size: 0.99vw;
+    color: white;
+    line-height: 0.99vw;
+}
+.add .f1 input::placeholder,.add .f2 input::placeholder,.add .f3 input::placeholder,.add .f4 input::placeholder,.add .f5 input::placeholder,.add .f6 input::placeholder,.add .f7 input::placeholder, .add .f8 input::placeholder, .contact input::placeholder, .contact textarea::placeholder{
+    color: white;
+}
+.add textarea::placeholder, .contact textarea::placeholder, .contact input::placeholder {
+    color: white;
+    font-size: 0.99vw;
+    font-family: 'Montserrat', sans-serif;
+}
